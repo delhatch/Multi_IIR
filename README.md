@@ -15,13 +15,19 @@ In the pictures below, it shows a 27-band filter being implemented with the sing
 
 The spectrum analyzer I am using has reduced resolution in the lower bands, so the first picture shows that all filters are operating properly.
 
+-----------------------------------------------------
+
 ![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/flat.jpg)
 
 All bands set flat.
 
+-----------------------------------------------------
+
 ![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/1k.jpg)
 
 All bands flat except for the 1 kHz band, set to +12 dB, with Q of one-third octave.
+
+-----------------------------------------------------
 
 ** Core
 
