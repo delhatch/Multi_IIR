@@ -6,7 +6,7 @@ Del Hatch
 
 ** Multi-band IIR filter
 
-The purpose of this project is to demostrate taking a single IIR filter core (in Verilog, in the PL fabric), and time-multiplexing it into a multi-band filter.
+The purpose of this project is to demonstrate taking a single IIR filter core (in Verilog, in the PL fabric), and time-multiplexing it into a multi-band filter.
 
 In the pictures below, it shows a 27-band filter being implemented with the single IIR filter. Every third band is set to +12 dB, with a Q of one-third octave. The first picture shows just the lower bands, and the second picture shows all bands operating.
 
