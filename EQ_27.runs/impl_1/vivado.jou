@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Feb  8 15:00:29 2018
+# Process ID: 6504
+# Current directory: C:/Zynq_Book/EQ_27/EQ_27.runs/impl_1
+# Command line: vivado.exe -log Top_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Top_wrapper.tcl -notrace
+# Log file: C:/Zynq_Book/EQ_27/EQ_27.runs/impl_1/Top_wrapper.vdi
+# Journal file: C:/Zynq_Book/EQ_27/EQ_27.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Top_wrapper.tcl -notrace
