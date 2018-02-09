@@ -13,7 +13,7 @@ In the pictures below, it shows a 27-band filter being implemented with the sing
 ![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/low.jpg)
 ![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/peaks.jpg)
 
-The spectrum analyzer I am using has reduced resolution in the lower bands, so the first picture shows that all filters are operating properly.
+The spectrum analyzer I am using has reduced resolution in the lower bands, so the first picture shows that all filters (even the the lower bands that look wonky in the lower picture) are operating properly.
 
 -----------------------------------------------------
 
