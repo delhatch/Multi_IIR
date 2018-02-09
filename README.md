@@ -43,9 +43,9 @@ The module "blk_mem_gen_0" is a standard BRAM IP module, and is used to hold the
 
 The Z-1 and Z-2 terms are stored in block RAM instances in the eq_module itself.
 
-The filter works by calling up a set of coefficients and the Z terms, and calculating a result. And writing the new Z-1 and Z-2 terms to memory. The entire operation takes 2 clock cycles. In other words, each filter band takes 2 clock cycles.
+The filter works by calling up a set of coefficients and the Z terms, and calculating a result, and writing back the new Z-1 and Z-2 terms to memory. The entire operation takes 2 clock cycles.
 
-So the 27-band filter implimented in this project takes only 54 clock cycles.
+So the 27-band filter implimented in this project takes only 54 clock cycles to execute all filter operations.
 
 ** Calculating the Coefficients
 
