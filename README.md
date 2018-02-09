@@ -1,9 +1,9 @@
 # Multi_IIR
 
-![screenshot](https://github.com/delhatch/Multi-IIR/blob/master/low.jpg)
-![screenshot](https://github.com/delhatch/Multi-IIR/blob/master/peaks.jpg)
-![screenshot](https://github.com/delhatch/Multi-IIR/blob/master/flat.jpg)
-![screenshot](https://github.com/delhatch/Multi-IIR/blob/master/1k.jpg)
+![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/low.jpg)
+![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/peaks.jpg)
+![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/flat.jpg)
+![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/1k.jpg)
 
 Author
 
@@ -41,7 +41,7 @@ The filter operates using fixed-point integer math for efficiency, so the C code
 
 In Vivado 2017.4, build the system as shown in the system_diagram.jpg file.
 
-![system diagram](https://github.com/delhatch/Multi-IIR/blob/master/system_architecture.JPG)
+![system diagram](https://github.com/delhatch/Multi_IIR/blob/master/system_architecture.JPG)
 
 It requires three IP cores, in the folders "axi_i2s_transmitter" "eq_core" and "axi_i2s_receiver_1.0" respectively.
 
