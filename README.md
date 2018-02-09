@@ -1,23 +1,33 @@
 # Multi_IIR
 
-![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/low.jpg)
-![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/peaks.jpg)
-![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/flat.jpg)
-![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/1k.jpg)
-
 Author
 
 Del Hatch
 
 ** Multi-band IIR filter
 
-The purpose of this project is to demostrate taking a single IIR filter core (in Verilog in the PL fabric), and time-multiplexing it into a multi-band filter.
+The purpose of this project is to demostrate taking a single IIR filter core (in Verilog, in the PL fabric), and time-multiplexing it into a multi-band filter.
 
-The IIR filter is implemented using integer coefficients. (Only fixed-point operations, no floating point.)
+In the pictures below, it shows a 27-band filter being implemented with the single IIR filter. Every third band is set to +12 dB, with a Q of one-third octave. The first picture shows just the lower bands, and the second picture shows all bands operating.
+
+![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/low.jpg)
+![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/peaks.jpg)
+
+The spectrum analyzer I am using has reduced resolution in the lower bands, so the first picture shows that all filters are operating properly.
+
+![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/flat.jpg)
+
+All bands set flat.
+
+![screenshot](https://github.com/delhatch/Multi_IIR/blob/master/1k.jpg)
+
+All bands flat except for the 1 kHz band, set to +12 dB, with Q of one-third octave.
 
 ** Core
 
 This project builds on my previous project at https://github.com/delhatch/IIR_EQ
+
+The IIR filter is implemented using integer coefficients. (Only fixed-point operations, no floating point.)
 
 ** EQ Module
 
