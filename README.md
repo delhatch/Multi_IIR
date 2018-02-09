@@ -69,9 +69,4 @@ This project is mainly a demonstration of how to create a multi-band IIR filter 
 
 The data words are very wide, due to the fact that IIR filters are inefficient at very low frequencies (referenced to the sample rate) causing the intermediate filter values get very large. For example, the audio words are all less than 1.0, and coefficients are never greater that 1.99999, but even so, in the low bands, nodes can see values around 800,000.(!)
 
-So one improvement would be to use a decimation filter to reduce the sample rate for the low. This would keep node values under one hundred, meaning that the word widths could be reduced by ~13 bits, which would reduce the multiplier output width by twice that.
-
-
-
-
-
+So one improvement would be to use a filter and decimate to reduce the sample rate for the low band. This would keep node values to under one hundred, meaning that the word widths could be reduced by ~13 bits, which would reduce the multiplier output width by twice that.
